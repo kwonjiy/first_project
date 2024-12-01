@@ -1,0 +1,60 @@
+/* styles/globals.css */
+/* Header.tsx */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ff6f61; 
+  padding: 10px 20px;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  font-weight: 700
+}
+
+nav button {
+  background: none;
+  border: none;
+  color: black;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 15px;
+  transition: border-bottom 0.3s;
+  font-weight: 700
+}
+
+nav button:hover {
+  border-bottom: 2px solid black;
+}
+
+/* Footer.tsx */
+footer {
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
